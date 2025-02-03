@@ -1,0 +1,18 @@
+.yo{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Times, serif;
+    font-size: 40px;
+    color: chartreuse;
+ }
+
+section > h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: pink;
+    font-size: 20px;
+}
+
+body{
+    font-family: arial;
+    text-align: center;
+    background-color: darkslategray;
+}
+
