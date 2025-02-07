@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Bancario</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+    <div id="contenedor"></div>
+        <h1>Datos de la Cuenta Bancaria</h1>
+
+        <form>
+            <label for="titular">Nombre del Titular: </label>
+            <input type="text" id="titular" name="titular" required>
+
+            <label for="banco">Banco: </label>
+            <input type="text" id="banco" name="banco" required>
+
+            <label for="numero_cuenta">Número de Cuenta: </label>
+            <input type="text" id="numero_cuenta" name="numero_cuenta" required>
+            
+            <label for="clabe">CLABE Interbancaria: </label>
+            <input type="text" id="clabe" name="clabe" required>
+
+            <label for="tipo_cuenta">Tipo de Cuenta: </label>
+            <select id="tipo_cuenta" name="tipo_cuenta">
+                <option value="Ahorro">Ahorro</option>
+                <option value="Corriente">Corriente</option>
+            </select>
+
+            <label for="moneda">Moneda: </label>
+            <select id="moneda" name="moneda">
+                <option value="MXN">Peso Mexicano (MXN)</option>
+                <option value="USD">Dólar Americano (USD)</option>
+                <option value="EUR">Euro (EUR)</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label for="email">Correo Electrónico: </label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefono">Teléfono: </label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <label for="identificacion">Identificación Oficial: </label>
+            <input type="file" id="identificacion" name="identificacion" accept="image/*,.pdf" required>
+
+            <input type="checkbox" id="terminos" name="terminos" required>
+            <label for="terminos">Acepto los términos y condiciones</label>
+
+            <button type="submit">REGISTRAR</button>
+        </form>
+    </div>
+</body>
+</html>
