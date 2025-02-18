@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initial-scale=1.0>
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="estilo2.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1>Datos del Usuario </h1>
+
+        <form>
+            <label for="Nombre">Nombre: </label>
+            <input type="text" id="Nombre" name="Nombre" required>
+
+            <label for="Email">Correo Electronico: </label>
+            <input type="email" id="Correo" name="Correo" required>
+
+            <label for="Contraseña">Contraseña: </label>
+            <input type="password" id="Contraseña" name="Contraseña" required>
+            
+            <label for="dob">Fecha de Nacimiento: </label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="number">Telefono: </label>
+            <input type="number" id="number" name="number" required>
+
+            <label for="genero">Genero: </label>
+
+            <div class="genero">
+                <select id="genero" name="genero">
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                    <option value="Otro">Otro</option>
+                </select>
+            </div>
+
+            <label for="Estado">Estado: </label>
+            <select id="Estado" name="Estado">
+                <option value="Sonora">Sonora</option>
+                <option value="Sinaloa">Sinaloa</option>
+                <option value="Baja California">Baja California</option>
+                <option value="Baja California Sur">Baja California Sur</option>
+                <option value="Chihuahua">Chihuahua</option>
+                <option value="Coahuila">Coahuila</option>
+                <option value="Nuevo Leon">Nuevo Leon</option>
+                <option value="Tamaulipas">Tamaulipas</option>
+                <option value="Durango">Durango</option>
+                <option value="Zacatecas">Zacatecas</option>
+                <option value="Aguascalientes">Aguascalientes</option>
+                <option value="San Luis Potosi">San Luis Potosi</option>
+                <option value="Jalisco">Jalisco</option>
+                <option value="Colima">Colima</option>
+                <option value="Michoacan">Michoacan</option>
+                <option value="Guanajuato">Guanajuato</option>
+                <option value="Queretaro">Queretaro</option>
+                <option value="Hidalgo">Hidalgo</option>
+                <option value="Estado de Mexico">Estado de Mexico</option>
+                <option value="Tlaxcala">Tlaxcala</option>
+                <option value="Puebla">Puebla</option>
+                <option value="Morelos">Morelos</option>
+                <option value="Guerrero">Guerrero</option>
+                <option value="Oaxaca">Oaxaca</option>
+                <option value="Chiapas">Chiapas</option>
+                <option value="Tabasco">Tabasco</option>
+                <option value="Campeche">Campeche</option>
+                <option value="Yucatan">Yucatan</option>
+            </select>
+
+            <label>Imagen de Perfil:</label>
+            <input type="file" name="imagen" id="imagen" accept="image/*">
+
+            <input type="checkbox" id="terminos" name="terminos" required>
+            <label for="terminos">Acepto los terminos y condiciones</label>
+
+            <button type="submit">REGISTRAR</button>
+            
+        </form>
+
+    </div>
+
+    
+    
+
+</body>
+
+
+
+
+
+</html>

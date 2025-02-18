@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initial-scale=1.0>
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    
+    <h1>Formularios</h1>
+    <form>
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+        
+        <label for="apellido">Apellido: </label>
+        <input type="text" id="apellido" name="apellido" required>
+        <br>
+
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" required>
+        <br>
+
+        <label for="contraseña">Contraseña: </label>
+        <input type="password" id="contraseña" name="contraseña" required>
+        <br>
+
+        <label>
+        <select>
+            <option value="0">Campus ITSON:</option>
+            <option>Ciudad obregon</option>
+            <option>Navojoa</option>
+            <option>Guaymas</option>
+        </select>
+        </label>
+        <br>
+
+        <label>Genero: </label>
+        <input type="radio" name="genero" value="hombre">Hombre
+        <input type="radio" name="genero" value="mujer">Mujer
+        <input type="radio" name="genero" value="otro">Otro
+        <br>
+
+        <label>Condiciones </label>
+        <input type="checkbox" name="Condiciones" value="1">Acepto las condiciones
+        <br>
+
+
+        <input type="submit" name="Enviar">
+    </form>
+
+    <footer>
+        <a href="https://github.com/davidelierspecter"> Mi github </a>
+    </footer>
+
+</body>
+
+
+</html>
