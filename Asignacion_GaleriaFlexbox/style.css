@@ -62,16 +62,3 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .item {
-        width: calc(50% - 40px); /* Two items per row with 20px gap */
-    }
-}
-
-@media (max-width: 480px) {
-    .item {
-        width: calc(100% - 40px); /* One item per row with 20px gap */
-    }
-}
