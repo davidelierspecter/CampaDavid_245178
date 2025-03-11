@@ -1,0 +1,56 @@
+header {
+    background: #006db6;
+    padding: 10px;
+    color:white;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem;
+    background: lightgreen;
+}
+
+section{
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+section h2{
+    color: #006db6;
+}
+
+footer {
+    background: #006db6;
+    padding: 10px;
+    color:white;
+    text-align: center;
+}
+
+@media(max-width: 768px){
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+
+.galeria {
+    grid-column: 1 / -1;
+}
+
+.galeria-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.galeria-grid img{
+    width: 100%;
+    height: auto;
+}
+
+.formulario {
+    grid-column: 1 / -1;
+}
