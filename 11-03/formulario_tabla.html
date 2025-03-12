@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Películas</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Películas</h1>
+        <!-- título, año, duración, género/categoría director, sinopsis, clasificación -->
+        <form id="formulario">
+            <input class="form-control" type="text" name="titulo" placeholder="Nombre de la pelicula">
+            <input class="form-control" type="number" name="anio" placeholder="Año de estreno">
+            <select class="form-select">
+                <option value="Accion">Acción</option>
+                <option value="Comedia">Comedia</option>
+            </select>
+
+            <input class="form-control" type="text" name="director" placeholder="Director">
+            
+            <button class="btn btn-primary" type="submit">Agregar</button>
+
+            <h3>Lista de Películas</h3>
+
+            <table class = "table">
+                <thead>
+                    <td>Título</td>
+                    <td>Año</td>
+                    <td>Género</td>
+                    <td>Director</td>
+                    <td>Acciones</td>
+                </thead>
+            </table>
+
+        </form>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
